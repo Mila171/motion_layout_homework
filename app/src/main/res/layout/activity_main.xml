@@ -7,6 +7,12 @@
     tools:context=".MainActivity">
 
 
-    
-
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/ic_action_name" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
 </androidx.constraintlayout.widget.ConstraintLayout>

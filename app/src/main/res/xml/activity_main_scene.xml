@@ -10,6 +10,10 @@
         <OnClick
             motion:targetId="@id/linearLayout"
             motion:clickAction="toggle"/>
+
+        <OnSwipe motion:targetId="@id/linearLayout"
+            motion:clickAction="toggle" />
+
        <KeyFrameSet>
        </KeyFrameSet>
     </Transition>
